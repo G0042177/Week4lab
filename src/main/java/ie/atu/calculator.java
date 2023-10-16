@@ -11,32 +11,34 @@ public class calculator {
         multiple();
         System.out.println("Subtraction");
         sub();
-
-    public static void add() {
-        System.out.println("Please your first  number :");
-        Scanner inputs = new Scanner(System.in);
-        int firstNumber = inputs.nextInt();
-
-        System.out.println("Please your second number :");
-        int secondNumber = inputs.nextInt();
-
-        int total = firstNumber + secondNumber;
-        System.out.println("The total is " + total);
+        System.out.println("division");
+        divide();
     }
+        public static void add () {
+            System.out.println("Please your first  number :");
+            Scanner inputs = new Scanner(System.in);
+            int firstNumber = inputs.nextInt();
 
-    public static void multiple() {
-        System.out.println("Please your first  number :");
-        Scanner inputs = new Scanner(System.in);
-        int firstNumber = inputs.nextInt();
+            System.out.println("Please your second number :");
+            int secondNumber = inputs.nextInt();
 
-        System.out.println("Please your second number :");
-        int secondNumber = inputs.nextInt();
+            int total = firstNumber + secondNumber;
+            System.out.println("The total is " + total);
+        }
 
-        int total = firstNumber * secondNumber;
-        System.out.println("The total is " + total);
-    }
+        public static void multiple () {
+            System.out.println("Please your first  number :");
+            Scanner inputs = new Scanner(System.in);
+            int firstNumber = inputs.nextInt();
 
-        public static void sub() {
+            System.out.println("Please your second number :");
+            int secondNumber = inputs.nextInt();
+
+            int total = firstNumber * secondNumber;
+            System.out.println("The total is " + total);
+        }
+
+        public static void sub () {
             System.out.println("Please your first  number :");
             Scanner inputs = new Scanner(System.in);
             int firstNumber = inputs.nextInt();
@@ -47,4 +49,16 @@ public class calculator {
             int total = firstNumber - secondNumber;
             System.out.println("The total is " + total);
         }
-    }
+
+        public static void divide () {
+            System.out.println("Please your first  number :");
+            Scanner inputs = new Scanner(System.in);
+            int firstNumber = inputs.nextInt();
+
+            System.out.println("Please your second number :");
+            int secondNumber = inputs.nextInt();
+
+            int total = firstNumber / secondNumber;
+            System.out.println("The total is " + total);
+        }
+}
