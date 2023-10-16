@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class calculator {
     public static void main(String[] args) {
+
         System.out.println("Addition");
         add();
         System.out.println("Multiplication");
@@ -32,5 +33,6 @@ public class calculator {
 
         int total = firstNumber * secondNumber;
         System.out.println("The total is " + total);
+
     }
 }
