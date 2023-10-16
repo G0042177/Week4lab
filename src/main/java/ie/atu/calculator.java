@@ -11,7 +11,6 @@ public class calculator {
         multiple();
         System.out.println("Subtraction");
         sub();
-    }
 
     public static void add() {
         System.out.println("Please your first  number :");
